@@ -7,10 +7,11 @@ table. To perform all such operations Airflow is used which will create multiple
 
 Python files
 1. dags/store_DAG.py
+
 Dag file with three tasks
-t1 - fetch data from weather API and saves it to CSV file.
-t2 - create weather table based on required schema.
-t3 - insert data into table from csv file
+1. t1 - fetch data from weather API and saves it to CSV file.
+2. t2 - create weather table based on required schema.
+3. t3 - insert data into table from csv file
 
 2. dags/fetchDataAndStoreInCSV.py
 fetch data from weather API
